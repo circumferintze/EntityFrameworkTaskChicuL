@@ -10,6 +10,6 @@ namespace TaskNF
         [Key]
         public int IdGenre { get; set; }
         public string GenreName { get; set; }
-        public IEnumerable<Book> Books {get; set;}
+        public ICollection<Book> Books {get; set;}
     }
 }

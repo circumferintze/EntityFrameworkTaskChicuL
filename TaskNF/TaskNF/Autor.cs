@@ -11,6 +11,7 @@ namespace TaskNF
         public int idAutor { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IEnumerable<EmailAddress> EmailAddresses {get; set;} 
+        public virtual ICollection<EmailAddress> EmailAddresses {get; set;} 
+        public virtual ICollection<Book> Books { get; set; }
     }
 }
