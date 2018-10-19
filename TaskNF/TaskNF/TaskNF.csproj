@@ -64,6 +64,26 @@
     <Compile Include="Migrations\201810191431025_keyforPublisher.Designer.cs">
       <DependentUpon>201810191431025_keyforPublisher.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810191458202_update-database.cs" />
+    <Compile Include="Migrations\201810191458202_update-database.Designer.cs">
+      <DependentUpon>201810191458202_update-database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810191500524_BookGenres.cs" />
+    <Compile Include="Migrations\201810191500524_BookGenres.Designer.cs">
+      <DependentUpon>201810191500524_BookGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810191501577_AutorsEmailsAdresses.cs" />
+    <Compile Include="Migrations\201810191501577_AutorsEmailsAdresses.Designer.cs">
+      <DependentUpon>201810191501577_AutorsEmailsAdresses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810191503121_PublishersCountry.cs" />
+    <Compile Include="Migrations\201810191503121_PublishersCountry.Designer.cs">
+      <DependentUpon>201810191503121_PublishersCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810191503541_PublishersAdressese.cs" />
+    <Compile Include="Migrations\201810191503541_PublishersAdressese.Designer.cs">
+      <DependentUpon>201810191503541_PublishersAdressese.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +99,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810191431025_keyforPublisher.resx">
       <DependentUpon>201810191431025_keyforPublisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191458202_update-database.resx">
+      <DependentUpon>201810191458202_update-database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191500524_BookGenres.resx">
+      <DependentUpon>201810191500524_BookGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191501577_AutorsEmailsAdresses.resx">
+      <DependentUpon>201810191501577_AutorsEmailsAdresses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191503121_PublishersCountry.resx">
+      <DependentUpon>201810191503121_PublishersCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191503541_PublishersAdressese.resx">
+      <DependentUpon>201810191503541_PublishersAdressese.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
