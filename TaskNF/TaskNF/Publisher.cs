@@ -11,5 +11,7 @@ namespace TaskNF
         public int PublishedId { get; set; }
         public string PublisherName { get; set; }
         public virtual ICollection<Book> Books { get; set; }
+        public int CountryId { get; set; }
+        public virtual Country Country { get; set; }
     }
 }
