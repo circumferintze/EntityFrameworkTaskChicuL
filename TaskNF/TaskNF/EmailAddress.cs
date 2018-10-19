@@ -9,7 +9,6 @@ namespace TaskNF
         [Key]
         public int IdAdress { get; set; }
         public string Email { get; set; }
-        
         public int IdAutor { get; set; }
         public virtual Autor Autor { get; set; }
         public int idPublisher { get; set; }

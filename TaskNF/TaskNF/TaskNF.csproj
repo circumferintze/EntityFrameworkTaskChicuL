@@ -56,6 +56,15 @@
     <Compile Include="Country.cs" />
     <Compile Include="EmailAddress.cs" />
     <Compile Include="Genre.cs" />
+    <Compile Include="Migrations\201810190857107_createschema.cs" />
+    <Compile Include="Migrations\201810190857107_createschema.Designer.cs">
+      <DependentUpon>201810190857107_createschema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810191431025_keyforPublisher.cs" />
+    <Compile Include="Migrations\201810191431025_keyforPublisher.Designer.cs">
+      <DependentUpon>201810191431025_keyforPublisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Publisher.cs" />
@@ -63,6 +72,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810190857107_createschema.resx">
+      <DependentUpon>201810190857107_createschema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191431025_keyforPublisher.resx">
+      <DependentUpon>201810191431025_keyforPublisher.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,7 +15,7 @@ namespace TaskNF
         public virtual ICollection<Autor> Autors {get; set;}
         public virtual ICollection<Genre> Genres { get; set; }
         public virtual Publisher PublisherName { get; set; }
+        public int PublisherID { get; set; }
         public virtual DateTimeOffset PublisherDate { get; set; }
-        public virtual Country Country { get; set; }
     }
 }
