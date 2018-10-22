@@ -84,6 +84,10 @@
     <Compile Include="Migrations\201810191503541_PublishersAdressese.Designer.cs">
       <DependentUpon>201810191503541_PublishersAdressese.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810220911114_fin .cs" />
+    <Compile Include="Migrations\201810220911114_fin .Designer.cs">
+      <DependentUpon>201810220911114_fin .cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810191503541_PublishersAdressese.resx">
       <DependentUpon>201810191503541_PublishersAdressese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810220911114_fin .resx">
+      <DependentUpon>201810220911114_fin .cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
